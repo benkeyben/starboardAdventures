@@ -78,7 +78,7 @@ Challenges encountered in the project included data quality issues and performan
 To address challenges faced during the project:
   -  Thorough data cleaning was conducted to address data quality issues and ensure consistency.
   -  Performance testing and optimization techniques were employed to enhance the speed and efficiency of Power BI reports and dashboards.
-
+    
 -  Customer Details Dashboard
 <img src="img/starboard-customers.png" alt="starboard customer banner" style="width:100%;"/>
 -  Product Details Dashboard
