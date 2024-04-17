@@ -19,12 +19,12 @@ The project aims to implement a comprehensive Business Intelligence (BI) solutio
   -  DAX (Data Analysis Expressions): Leverage DAX for creating calculated columns, measures, and complex analytical functions within Power BI.
 
 ## Methodology Used: Extraction, Transformation and Loading (ETL)
-  - Extraction: I imported the raw data from the provided CSV files containing information on transactions, returns, products, customers, and sales territories into power query editor in Power BI Desktop. [Click to watch on youtube.]()
+  - Extraction: I imported the raw data from the provided CSV files containing information on transactions, returns, products, customers, and sales territories into power query editor in Power BI Desktop. [Click to watch on youtube.](https://youtu.be/Njy4v2_IhPQ)
 
-  - Transformation: Cleansed, transformed, and reshaped the raw data to prepare it for analysis. Tasks include data normalization, handling missing values, and creating derived metrics. [Click to watch on youtube.]()
+  - Transformation: Cleansed, transformed, and reshaped the raw data to prepare it for analysis. Tasks include data normalization, handling missing values, and creating derived metrics. [Click to watch on youtube.](https://youtu.be/9JwXJCcGGIY)
 
   - Loading: Load the transformed data into data model view to build a relational data model. Establish relationships between different tables to facilitate cross-filtering and analysis.
-[Click to watch on youtube.]()
+[Click to watch on youtube.]( https://youtu.be/g7-qh7QuTiE)
 
 - Data Model View
 <img src="img/starboard-data-model.png" alt="starboard data model" style="width:100%;"/>
