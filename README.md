@@ -1,5 +1,16 @@
 ## CycleInsight: Powering Business Intelligence for StarBoard AdventureWorks
+-  Exec Dashboard
 <img src="img/starboard-banner.png" alt="starboard banner" style="width:100%;"/>
+
+-  Product Detais Dashboard
+<img src="img/starboard-banner.png" alt="starboard banner" style="width:100%;"/>
+
+-  Map Dashboard
+<img src="img/starboard-banner.png" alt="starboard banner" style="width:100%;"/>
+
+-  Customer Details Dashboard
+<img src="img/starboard-banner.png" alt="starboard banner" style="width:100%;"/>
+
 
 ## Project Overview
 The project aims to implement a comprehensive Business Intelligence (BI) solution for Starboard AdventureWorks, a global manufacturing company specializing in cycling equipment and accessories. The primary objective is to enable the management team to track Key Performance Indicators (KPIs), compare regional performance, analyze product-level trends, and identify high-value customers. The solution will leverage Power BI Desktop to connect, transform, and visualize raw data obtained from various sources, including transactions, returns, products, customers, and sales territories. By harnessing the capabilities of Power BI, the project seeks to deliver an intuitive and interactive dashboard that provides actionable insights for informed decision-making.
