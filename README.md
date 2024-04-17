@@ -1,6 +1,7 @@
 ## CycleInsight: Powering Business Intelligence for StarBoard Adventures
 -  Exec Dashboard
 <img src="img/starboard-banner.png" alt="starboard banner" style="width:100%;"/>
+
 -  Customer Details Dashboard
 <img src="img/starboard-customers.png" alt="starboard customer banner" style="width:100%;"/>
 
