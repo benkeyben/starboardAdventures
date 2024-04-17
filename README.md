@@ -18,7 +18,7 @@ The project aims to implement a comprehensive Business Intelligence (BI) solutio
   - Power BI Desktop: Utilize Power BI Desktop as the primary tool for data connection, transformation, modeling, and visualization.
   -  DAX (Data Analysis Expressions): Leverage DAX for creating calculated columns, measures, and complex analytical functions within Power BI.
 
-## METHODOLOGY - Extraction, Transformation and Loading (ETL)
+## Methodology Used: Extraction, Transformation and Loading (ETL)
   - Extraction: I imported the raw data from the provided CSV files containing information on transactions, returns, products, customers, and sales territories into power query editor in Power BI Desktop. [Click to watch on youtube.]()
 
   - Transformation: Cleansed, transformed, and reshaped the raw data to prepare it for analysis. Tasks include data normalization, handling missing values, and creating derived metrics. [Click to watch on youtube.]()
@@ -79,9 +79,9 @@ To address challenges faced during the project:
   -  Thorough data cleaning was conducted to address data quality issues and ensure consistency.
   -  Performance testing and optimization techniques were employed to enhance the speed and efficiency of Power BI reports and dashboards.
     
--  Customer Details Dashboard
+Customer Details Dashboard
 <img src="img/starboard-customers.png" alt="starboard customer banner" style="width:100%;"/>
--  Product Details Dashboard
+Product Details Dashboard
 <img src="img/starboard-products.png" alt="starboard products banner" style="width:100%;"/>
--  Map Details Dashboard
+Map Details Dashboard
 <img src="img/starboard-map.png" alt="starboard map banner" style="width:100%;"/>
