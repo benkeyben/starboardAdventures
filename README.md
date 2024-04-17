@@ -26,29 +26,33 @@ The project aims to implement a comprehensive Business Intelligence (BI) solutio
   - Loading: Load the transformed data into data model view to build a relational data model. Establish relationships between different tables to facilitate cross-filtering and analysis.
 [Click to watch on youtube.]()
 
+- Data Model View
+<img src="img/starboard-data-model.png" alt="starboard data model" style="width:100%;"/>
+
 - DAX Calculations: Used DAX to create calculated columns and measures necessary for KPI tracking, regional comparison, trend analysis, and customer segmentation. Some of the most vital columns and measures include
   -  Calculated Columns:
        -  Quantity Type = 
           IF(
-              'Sales Data'[OrderQuantity] > 1,
+              'fTransactions'[OrderQuantity] > 1,
               "Multiple Items",
               "Single Item"
           )
 
-       -  Quantity Type = 
+       - Customer Priority = 
           IF(
-              'Sales Data'[OrderQuantity] > 1,
-              "Multiple Items",
-              "Single Item"
-          )
+              'dCustomer'[Parent] = "Yes" && 
+              'dCustomer'[AnnualIncome] > 100000, 
+              "Priority",
+              "Standard"
+          ) 
 
   -  Measures:
       -  Total Cost = 
           SUMX(
-              'Sales Data',
-              'Sales Data'[OrderQuantity] *
+              'fTransactions',
+              'fTransactions'[OrderQuantity] *
               RELATED(
-                  'Product Lookup'[ProductCost]
+                  'dProduct'[ProductCost]
               )
           )
 
@@ -56,7 +60,7 @@ The project aims to implement a comprehensive Business Intelligence (BI) solutio
         CALCULATE(
             [Total Profit],
             DATEADD(
-                'Calendar Lookup'[Date],
+                'dCalendar'[Date],
                 -1,
                 MONTH
             )
@@ -65,7 +69,7 @@ The project aims to implement a comprehensive Business Intelligence (BI) solutio
           CALCULATE(
               [Average Retail Price],
               ALL(
-                  'Product Lookup'
+                  'dProduct'
               )
           )
     
