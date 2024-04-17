@@ -70,3 +70,11 @@ The project aims to implement a comprehensive Business Intelligence (BI) solutio
           )
     
 -  Dashboard Design: Designed an interactive dashboard within Power BI Desktop to visualize the processed data. Implemented intuitive and user-friendly visualizations, such as line charts, bar graphs, and KPI cards, to convey insights effectively to the management team.
+
+## Challenges
+Challenges encountered in the project included data quality issues and performance optimization. These challenges were addressed through thorough data cleaning, performance testing and optimization.
+
+## Recommendations
+To address challenges faced during the project:
+  -  Thorough data cleaning was conducted to address data quality issues and ensure consistency.
+  -  Performance testing and optimization techniques were employed to enhance the speed and efficiency of Power BI reports and dashboards.
